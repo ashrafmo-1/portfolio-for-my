@@ -87,14 +87,15 @@
                         <img src="./image/shape-wawes.svg" alt="" class="home-shap-wawes">
                         <img src="./image/shape-circle.svg" alt="" class="home-shap-circle">
                     </div>
-                    <ul class="home-social">
+                    <div class="home-social">
                         <li>
                             <a href="https://www.facebook.com/ASHRAFMoOoHAMED" class="home-social-link" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/ashraf_m0o0hamed/" class="home-social-link" target="_blank">
+                            <a href="https://www.instagram.com/ashraf_m0o0hamed/" class="home-social-link"
+                                target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li>
@@ -108,7 +109,7 @@
                                 <i class="fa-brands fa-discord"></i>
                             </a>
                         </li>
-                    </ul>
+                    </div>
                 </div>
                 <div class="home-information">
                     <div class="home-information-title">
@@ -326,8 +327,10 @@
             <span class="section-subtitle">What I Ofer</span>
             <div class="services-container container grid section-border">
                 <div class="services-card">
-                    <svg class="i" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-1x2" viewBox="0 0 16 16">
-                        <path d="M6 1H1v14h5V1zm9 0h-5v5h5V1zm0 9v5h-5v-5h5zM0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm1 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1h-5z" />
+                    <svg class="i" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-grid-1x2" viewBox="0 0 16 16">
+                        <path
+                            d="M6 1H1v14h5V1zm9 0h-5v5h5V1zm0 9v5h-5v-5h5zM0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm1 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1h-5z" />
                     </svg>
 
                     <h2 class="services-title">
@@ -342,8 +345,10 @@
                     <div class="services-border"></div>
                 </div>
                 <div class="services-card ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
-                        <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-code-slash" viewBox="0 0 16 16">
+                        <path
+                            d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
                     </svg>
                     <h2 class="services-title">
                         website<br>
@@ -357,9 +362,12 @@
                     <div class="services-border-active"></div>
                 </div>
                 <div class="services-card">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
-                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
-                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-pencil-square" viewBox="0 0 16 16">
+                        <path
+                            d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                        <path fill-rule="evenodd"
+                            d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
                     </svg>
                     <h2 class="services-title">
                         Designer<br>
@@ -386,126 +394,151 @@
                                 <img src="./image/proj-1.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">login site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-2.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">dashboard site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-3.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">portfolio</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-4.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">search site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-5.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">portfolio site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-6.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">weather site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-7.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">kasper site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-8.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">gallary site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-9.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">gallary site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-10.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">Calculator site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-11.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">Weather site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/proj-12.png" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block text-dark">
                                     <h5 class="projects-info-site">design House site</h5>
-                                    <button type="button" class="btn btn btn-warning"><a href="#" class="text-decoration-none">see all site & source code</a></button>
+                                    <button type="button" class="btn btn btn-warning"><a href="#"
+                                            class="text-decoration-none">see all site & source code</a></button>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-label="Slide 1" aria-current="true">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 4" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 5" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 5" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 6" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                                aria-label="Slide 6" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 7" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                                aria-label="Slide 7" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 8" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                                aria-label="Slide 8" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 9" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                                aria-label="Slide 9" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+                                aria-label="Slide 9" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+                                aria-label="Slide 10" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"
+                                aria-label="Slide 11" class="">
                             </button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12" class="">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11"
+                                aria-label="Slide 12" class="">
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- contact -->
         <section class="contact section" id="contact">
             <h2 class="section-title">contact me</h2>
@@ -540,18 +573,21 @@
                     <h3 class="contact-title">
                         <i class="fa-solid fa-paper-plane"></i> write me your project
                     </h3>
-                    <form class="contact-form" method="POST" action="#" enctype="multipart/form-data" id="contact-form">
+                    <form class="contact-form" id="contact-form">
                         <div class="contact-form-div">
                             <label class="contact-form-tag" for="">your name</label>
-                            <input class="contact-name-inp" type="text" name="username" id="contact-name" required placeholder="inter your name">
+                            <input class="contact-name-inp" type="text" name="username" id="contact-name" required
+                                placeholder="inter your name">
                         </div>
                         <div class="contact-form-div">
                             <label class="contact-form-tag" for="">E-mail</label>
-                            <input class="contact-name-inp" type="email" name="email" id="contact-email" required placeholder="inter your email">
+                            <input class="contact-name-inp" type="email" name="email" id="contact-email" required
+                                placeholder="inter your email">
                         </div>
                         <div class="contact-form-div contact-form-area">
                             <label class="contact-form-tag" for="">project</label>
-                            <textarea class="contact-name-inp" name="user-project" id="contact-project" placeholder="inter your project"></textarea>
+                            <textarea class="contact-name-inp" name="user-project" id="contact-project"
+                                placeholder="inter your project"></textarea>
                         </div>
                         <p class="contact-message" id="contact-message"></p>
                         <button type="submit" class="contact-btn">
@@ -561,7 +597,6 @@
                 </div>
             </div>
         </section>
-
         <!-- footer -->
         <footer class="footer">
             <div class="fonter-container container">
@@ -597,18 +632,14 @@
             </div>
         </footer>
     </main>
-    <a class="scrollup" id="scrollup" href="#home">
-        <i class="fa-solid fa-arrow-up"></i>
-    </a>
-
-    <!-- This Script Not Useable i'm use PHP Mail -->
-    <!-- <script src="./js/sent-email.js"></script> -->
+    <span class="go-top"> <i class="fa-solid fa-arrow-up"></i></span>
+    <script src="./js/sent-email.js"></script>
     <script src="./js/scrollreveal.min.js"></script>
-    <!-- This Script Not Useable i'm use PHP Mail -->
-    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="./js/index.js"></script>
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
     <script src="./js/darkmood.js"></script>
+    <script src="./js/sent-email.js"></script>
 </body>
 
 </html>
